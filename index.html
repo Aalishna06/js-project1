@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="get">
+        <input type="button" onclick="hello()" value="Click me">
+    </form>
+    <script>
+        function hello() {
+            const userLocation = prompt('What is your location?');
+            if ((userlocation=='Chandigarh') || (userlocation=='Punjab') || (userlocation=='Haryana')) {
+                window.location.href='locatioon.html'
+            } else  {
+                alert("Wrong location");
+            }
+        }
+    </script>
+</body>
+</html>
+
